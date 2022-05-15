@@ -1,0 +1,25 @@
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark" id="top-nav-bar">
+  <ul class="navbar-nav" style="height: 100%; width: 60%">
+    <li style="margin-top:50%;" >
+      <label id="ticker" style="margin-top:50%">Choose</label>
+    </li>
+    <li class="nav-item">
+      <button type="button" class="topSection btn btn-primary" (click)="getTaggedData('democrat', 0)">Democrat</button>
+    </li>
+    <li class="nav-item">
+      <button type="button" class="topSection btn btn-secondary" (click)="getTaggedData('neutral', 1)">Neutral</button>
+    </li>
+    <li class="nav-item">
+      <button type="button" class="topSection btn btn-danger" (click)="getTaggedData('republican', 2)">Republican</button>
+    </li>
+    <li>
+      <select id="user-id-select" class="form-control mr-sm-2">
+        <option>Select a Tagger</option>
+      </select>
+    </li>
+  </ul>
+  <img id="mainLogo" src="../../../assets/images/logo.png" style="width: 15em;margin-left: 56%;">
+</nav>
+
+
+

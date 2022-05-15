@@ -1,0 +1,512 @@
+/* You can add global styles to this file, and also import other style files */
+html{
+  overflow: hidden;
+  background: white;
+  font-family: sans-serif;
+}
+body{
+  height: 100vh;
+  font-size: 0.7em !important;
+  letter-spacing: 1px !important;
+  font-family: OpenSans,sans-serif,arial;
+}
+
+
+.blue_border_bottom{
+  border-bottom: 4px solid #0078f2;
+}
+
+.navbar-right{
+  margin-left: 80%;
+}
+
+.nav-item:hover{
+  border-bottom: 6px solid #0078f2;
+}
+
+.nav-item{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.nav-input-item{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#navbarNav{
+  margin-left: 11em;
+}
+
+.nav-item-logo{
+  display: flex;
+  /* justify-content: space-evenly; */
+  align-items: center;
+  /* width: 10em */
+}
+
+#mainLogo{
+  display: flex;
+  /* position: absolute; */
+  /* width: 10em; */
+  /* margin-top: 5px; */
+  /* left: 34%; */
+}
+
+#left {
+  height: 97%;
+  color: white;
+  border: 1px solid grey;
+  /*border-radius: 5px;*/
+  background: white;
+  text-align: center;
+  margin-top: 1em;
+  margin-right: 1%;
+}
+
+
+#right{
+  height: 95.4%;
+  margin-top: 1em;
+}
+#right1{
+  height: 95.4%;
+  margin-top: 1em;
+}
+
+#right .row{
+  height: 50%;
+}
+
+
+
+#mydiv.row{
+  height: 100%;
+}
+
+#right-section-video{
+  height: 100%;
+  /*border: 1px solid #c5baba;*/
+  /*border-radius: 5px;*/
+  background: white;
+}
+
+
+#right-section-topics{
+  height: 100%;
+  /*border-radius: 5px;*/
+  background: white;
+}
+
+
+#right-section-tagging{
+  height: 100% !important;
+  margin-top: -3.5em;
+  color: white;
+  /*border: 1px solid #c5baba;*/
+  /*border-radius: 5px;*/
+  background: white;
+}
+
+.sub-titles{
+  border-bottom: 1px solid grey;
+  padding: 1em 0;
+}
+
+.sub-titles p{
+  margin: 0 !important;
+}
+
+
+#right-section-fish{
+  height: 100%;
+  /*border: 1px solid #c5baba;*/
+  background: white;
+  margin-top: 2em;
+}
+
+#top-nav-bar{
+  padding: 0;
+  height: 7%;
+  background: #2a2a2a !important;
+  z-index: 1000 !important;
+}
+
+.container{
+  margin: 0 !important;
+  max-width: 100% !important;
+  height: 88%;
+}
+
+#main-row{
+  height: 100%;
+}
+
+.democratic-img{
+  border-radius: 50%;
+  width: 15%;
+}
+
+.republican-img{
+  border-radius: 50%;
+  width: 70%;
+}
+
+.blue {
+  background: #0078f2 !important;
+}
+
+#tag_btn{
+  width: 100%;
+}
+
+#save_btn{
+  width: 100%;
+  background: black;
+  border: 1px solid grey;
+  border-radius: 0;
+}
+
+#save_tags_btn{
+  width: 100%;
+  background: darkslategrey;
+  border: 1px solid grey;
+  border-radius: 0;
+}
+
+#save_btn:hover{
+  background: #2a2a2a;
+}
+#side_democrats{
+  height: 90%;
+  overflow: scroll;
+  padding: initial;
+}
+#side_democrats label{
+  min-width: 70%;
+  border: 1px solid grey;
+  text-align: center;
+  background: #07074e;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+#side_republican{
+  height: 90%;
+  overflow: scroll;
+  padding: initial;
+}
+
+#side_republican label{
+  min-width: 70%;
+  border: 1px solid grey;
+  text-align: center;
+  background: #520101;
+}
+
+#side_center{
+  margin-top: 0.5em;
+  height: 53%;
+  overflow: scroll;
+  padding: initial;
+}
+
+#side_center label{
+  min-width: 70%;
+  border: 1px solid grey;
+  text-align: center;
+  background: #19569f;
+}
+
+#side_center input{
+  opacity: 0;
+}
+
+iframe{
+  /*noinspection CssInvalidPropertyValue*/
+  height: -webkit-fill-available !important;
+  border: 1px solid grey;
+}
+
+#add-candidate-btn{
+  margin: 50% 0;
+  color: white;
+  width: 100%;
+  font-size: 1.5em;
+}
+
+#add-candidate-btn:hover{
+  background: #2a2a2a;;
+}
+
+#debaters_democrats {
+  background: #07074e;
+}
+
+#debaters_democrats img{
+  margin: 0.5em 0;
+  background: white;
+  margin-left: 0.5em;
+}
+
+#debaters_republicans{
+  background: #520101;
+}
+#debaters_republicans img{
+  margin: 0.5em 0;
+  background: white;
+  margin-right: 1em !important;
+}
+
+.right-border {
+  border-right: 1px solid grey;
+}
+
+#side_center{
+  text-align: center;
+}
+
+#image_name{
+  background: orange;
+  color: black;
+  padding: 0.5em;
+  position: absolute;
+  top: 4em;
+  left: -50em;
+  border-radius: 6px;
+  z-index: 100;
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.mat-select-arrow{
+  color: white;
+}
+
+.topic_placeholder{
+  color: aliceblue;
+  font-size: 1.1em;
+}
+
+.mat-form-field-infix{
+  border-bottom: 1px solid white;
+}
+
+.mat-form-field{
+  width: 100%;
+  margin-top: 2em;
+}
+
+.tag_direction{
+  width: 100%;
+  font-size: 1em !important;
+  border-radius: 0 !important;
+  background: black;
+  color: white !important;
+  border: 1px solid grey !important;
+  padding: 2em !important;
+}
+
+.tag_direction:hover{
+  background: grey !important;
+}
+
+.mat-select-value-text{
+  color: white;
+}
+
+#user-id-input{
+  margin-left: 2em;
+  /* margin-top: 18px; */
+  /* margin-top: 18px; */
+  padding-left: 3em;
+  padding-right: 2em;
+  border-radius: 2px !important;
+  border: 0;
+  width: 16em;
+  font-size: 1.2em;
+  background: white;
+  color: black;
+}
+
+#user-id-select{
+  margin-left: 2em;
+  margin-top: 18px;
+  padding-left: 3em;
+  padding-right: 2em;
+  border-radius: 2px !important;
+  border: 0;
+  width: 16em;
+  font-size: 1.2em;
+  background: white;
+  color: black;
+}
+
+#search-icon{
+  position: absolute;
+  top: 33%;
+  left: 3%;
+  color: grey;
+}
+
+#search-clear{
+  position: absolute;
+  color: grey;
+  top: 29%;
+  left: 51%;
+  cursor: pointer;
+}
+
+#search-clear:hover{
+  color: white;
+}
+
+#play_btn{
+  border-radius: 0;
+  width: 3em;
+  margin-right: 2%;
+  /* margin-left: 20em; */
+  background: black;
+  border: 1px solid grey;
+}
+
+#play_btn:hover{
+  background: #2a2a2a;
+}
+
+#pause_btn{
+  border-radius: 0;
+  width: 3em;
+  background: black;
+  border: 1px solid grey;
+}
+
+#pause_btn:hover{
+  background: #2a2a2a;
+}
+
+.democrats-check{
+  padding: 2%;
+}
+
+.republican-check{
+  padding: 2%;
+}
+
+.democrats-check:hover{
+  cursor: pointer;
+  background: #00008f !important;
+  /*visibility: hidden;*/
+}
+
+.republican-check:hover{
+  cursor: pointer;
+  background: #9c0000 !important;
+  /*visibility: hidden;*/
+}
+
+.selectRepublican{
+  background: red !important;
+}
+
+.selectDemocrat{
+  background: blue !important;
+}
+
+#tagging-overlay{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+  background: grey;
+  opacity: 0.5;
+}
+
+#tagging-overlay-main{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+  background: grey;
+  opacity: 0.5;
+}
+
+.userName{
+  text-align: center;
+  width: 10em;
+  background: #0078f2;
+}
+
+
+/* Latest news*/
+
+.blue {
+  background: black;
+}
+
+.news {
+  box-shadow: inset 0 -15px 30px rgba(0,0,0,0.4), 0 5px 10px rgba(0,0,0,0.5);
+  width: auto;
+  overflow: hidden;
+  padding: 1px;
+  -webkit-user-select: none;
+}
+
+.news span {
+  float: left;
+  color: #fff;
+  padding: 2px;
+  position: relative;
+  top: 1%;
+  box-shadow: inset 0 -15px 30px rgba(0,0,0,0.4);
+  font: 16px 'Raleway', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -webkit-user-select: none;
+  cursor: pointer;
+}
+
+.text1{
+
+  box-shadow:none !important;
+  width: 750px;
+}
+
+.bar{
+  color: grey !important;
+}
+
+#mydiv{
+  background: black !important;
+}
+
+svg{
+  color:black;
+  margin-top: 1em;
+}
+
+text{
+  fill:black
+}
+
+.highlightBtn{
+  border: 0.3em solid white !important;
+  border-radius: 4px !important;
+  background: black !important;
+  color: white !important;
+}
+
+.topSection:hover{
+  border-bottom: 2px solid white !important;
+}
+
+#spinner-main{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 10000;
+  display: none;
+}

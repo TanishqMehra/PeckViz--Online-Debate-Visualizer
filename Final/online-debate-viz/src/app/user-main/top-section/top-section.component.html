@@ -1,0 +1,30 @@
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark" id="top-nav-bar">
+  <ul class="navbar-nav" style="height: 100%; width:20%">
+    <li class="nav-input-item">
+      <label id="ticker" class="enableTicker">Choose</label>
+    </li>
+    <li class="nav-input-item">
+      <input id="user-id-input" class="form-control mr-sm-2" type="text" placeholder="Enter User ID">
+    </li>
+
+  </ul>
+  <ul class="navbar-nav" style="height: 100%; width:15%; justify-content: space-between;">
+    <li class="nav-item">
+      <button type="button" class="topSection btn btn-primary" (click)="recordTaggerType('democrat', 0)">Democrat</button>
+    </li>
+    <li class="nav-item">
+      <button type="button" class="topSection btn btn-secondary" (click)="recordTaggerType('neutral', 1)">Neutral</button>
+    </li>
+    <li class="nav-item">
+      <button type="button" class="topSection btn btn-danger" (click)="recordTaggerType('republican', 2)">Republican</button>
+    </li>
+  
+  </ul>
+  <ul class="navbar-nav" style="height: 100%; width:65%; justify-content: flex-end;">
+    <li class="nav-item-logo">
+      <img id="mainLogo" src="../../../assets/images/logo.png" style="width: 15em;">
+    </li>
+  </ul>
+  <!-- <img id="mainLogo" src="../../../assets/images/logo.png" style="width: 15em;margin-left: 56%;"> -->
+</nav>
+
